@@ -1,0 +1,49 @@
+.all_experience{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.experience_section{
+    margin: 8px;
+    min-width: 25vw;
+    max-width: 27vw;
+    border-radius: 10px;
+    background: rgb(33, 45, 69);
+    overflow: hidden;
+}
+
+.experience_name{
+    font-weight: bolder;
+    color: rgb(156, 201, 227);
+    padding: 0.5rem 0.5px;
+    margin-top: 1rem;
+    font-size: 18px;
+    background: rgb(33, 45, 69);
+}
+
+.experience_role{
+    font-weight: bolder;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #94C973;
+    background: rgb(33, 45, 69);
+
+}
+
+.experience_date{
+    font-weight: bolder;
+    padding: 0.5rem 0px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #DED93E;
+    background: rgb(33, 45, 69);
+}
+
+
+@media (max-width: 768px) {
+    .experience_section {
+      min-width: 90vw;
+    }
+  }

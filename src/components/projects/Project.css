@@ -1,0 +1,76 @@
+.card_container {
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  text-align: center;
+  width: 350px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  transition: all .5s ease 0s;
+}
+
+.card_container:hover{
+  transform: scale(1.02);
+    box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.9);
+}
+
+.card_container div h4 {
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: rgb(156, 201, 227);
+  padding: 0.5rem 0px;
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.card_container div project_desc {
+  width: 100%;
+  overflow: hidden;
+  padding: 0px 50px;
+  color: rgb(228, 230, 231);
+  line-height: 24px;
+  text-align: center;
+  margin-top: 0.3rem;
+  max-height: 150px;
+    overflow: hidden;
+}
+
+.technology p {
+  padding: 5px 8px;
+  border: 1px solid rgb(107, 48, 48);
+  border-radius: 20px;
+}
+
+.card_links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_links a {
+  color: rgb(212, 192, 192);
+  font-size: 1.2rem;
+  background: rgb(107, 48, 48);
+  border-radius: 15px;
+  transition: all 0.5s ease 0s;
+  border-color: none !important;
+  bottom: 0;
+}
+
+.card_links a:hover {
+  background: rgb(128, 20, 20);
+  border-color: none !important;
+}
+
+.card_links a:active {
+  background: rgb(128, 20, 20) !important;
+  border: none !important;
+}
+
+.btn-primary {
+  border: none !important;
+}
+
+@media (max-width: 768px) {
+  .card_container{
+      width: 100vw;
+  }
+}

@@ -1,0 +1,18 @@
+.link_style{
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.link_style:hover{
+    color: white;
+}
+
+
+
+@media (max-width: 768px) { 
+    .link_style{
+        margin-right: 10px !important;
+    }
+ }

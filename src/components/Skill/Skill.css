@@ -1,0 +1,41 @@
+
+
+.all_skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill_section {
+  width: 25vw;
+  margin-right: 16px;
+}
+
+.skill_title_desc {
+  max-width: 800px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 2.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.skill_details h4 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.skill_details p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .skill_section {
+    min-width: 90vw;
+  }
+}

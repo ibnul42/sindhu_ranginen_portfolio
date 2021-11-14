@@ -1,0 +1,60 @@
+.hero_text h2{
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 72px;
+    width: max-content;
+    max-width: 100%;
+    margin-bottom: 16px;
+    background: linear-gradient(121.57deg, rgb(255, 255, 255) 18.77%, rgba(255, 255, 255, 0.66) 60.15%) text;
+    padding: 58px 0px 16px;
+}
+
+.hero_text p{
+    max-width: 800px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn_my_resume{
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    top: 0px;
+    left: 0px;
+    width: 40%;
+    height: 55px;
+    background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+    opacity: 1;
+    transition: all 0.4s ease 0s;    
+    font-size: 24px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+
+@media (max-width: 768px) { 
+    .hero_text h2{
+        padding: 0;
+    }
+    .btn_my_resume{
+        width: 80%;
+        margin-bottom: 24px;
+    }
+ }
+
+ @media (max-width: 1024px) { 
+    .hero_text h2{
+        padding: 0;
+    }
+    .btn_my_resume{
+        width: 80%;
+        margin-bottom: 5px;
+    }
+ }

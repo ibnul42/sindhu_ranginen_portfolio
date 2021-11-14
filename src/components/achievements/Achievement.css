@@ -1,0 +1,25 @@
+.all_projects{
+    background: rgb(33, 45, 69);
+    border-radius: 12px;
+    height: 144px;
+    padding: 20px;
+}
+
+.total_num{
+    font-size: 1.8rem;
+}
+
+.total_name {
+    font-size: 1.2rem;
+}
+
+.bg_achievement{
+    background:rgb(33, 45, 69);
+}
+
+@media (max-width: 768px) {
+    .all_projects {
+      min-width: 90vw;
+      margin-right: 5px;
+    }
+  }

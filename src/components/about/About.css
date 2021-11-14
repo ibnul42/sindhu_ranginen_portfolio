@@ -1,0 +1,80 @@
+.graduation_title{
+    font-size: 30px;
+    width: max-content;
+    max-width: 100%;
+    margin-bottom: 12px;
+    background: linear-gradient(
+        121.57deg,
+        rgb(255, 255, 255) 18.77%,
+        rgba(255, 255, 255, 0.66) 60.15%
+      )
+      text;
+}
+
+.graduation_from{
+    font-size: 20px;
+    width: max-content;
+    max-width: 100%;
+    margin-bottom: 12px;
+    background: linear-gradient(
+        121.57deg,
+        rgb(255, 255, 255) 18.77%,
+        rgba(255, 255, 255, 0.66) 60.15%
+      )
+      text;
+}
+
+.qualification_title{
+    font-size: 20px;
+    margin-top: 20px;
+    width: max-content;
+    max-width: 100%;
+    margin-bottom: 12px;
+    background: linear-gradient(
+        121.57deg,
+        rgb(255, 255, 255) 18.77%,
+        rgba(255, 255, 255, 0.66) 60.15%
+      )
+      text;
+    align-self: center;
+}
+
+.section_title{
+    font-size: 35px;
+    width: max-content;
+    max-width: 100%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    background: linear-gradient(
+        121.57deg,
+        rgb(255, 255, 255) 18.77%,
+        rgba(255, 255, 255, 0.66) 60.15%
+      )
+      text;
+}
+
+
+.aaa:hover{
+    background: #fff;
+}
+
+.analysid_desc p{
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  
+}
+
+.analysid_desc p:hover{
+  background-color: rgba(37, 53, 78, 0.9);
+}
+
+
+
+@media (max-width: 768px) {
+    .small_screen_display {
+      align-self: flex-start;
+    }
+  }
