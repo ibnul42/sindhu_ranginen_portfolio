@@ -14,7 +14,7 @@
 
 .skill_title_desc {
   max-width: 800px;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 2.5rem;
@@ -23,19 +23,22 @@
 
 .skill_details h4 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
 .skill_details p {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
 }
 
 @media (max-width: 768px) {
   .skill_section {
     min-width: 90vw;
+  }
+  .skill_details h4 {
+    font-size: 20px;
   }
 }

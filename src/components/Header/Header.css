@@ -15,4 +15,7 @@
     .link_style{
         margin-right: 10px !important;
     }
+    .navbar-nav a{
+        margin: 5px;
+    }
  }

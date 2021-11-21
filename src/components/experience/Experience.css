@@ -12,14 +12,20 @@
     border-radius: 10px;
     background: rgb(33, 45, 69);
     overflow: hidden;
+    transition: all .5s ease 0s;
+}
+
+.experience_section:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 15px rgba(80, 78, 78, 0.5);
 }
 
 .experience_name{
     font-weight: bolder;
     color: rgb(156, 201, 227);
-    padding: 0.5rem 0.5px;
-    margin-top: 1rem;
-    font-size: 18px;
+    padding: 0.2rem 0.5px;
+    margin-top: 10px;
+    font-size: 16px;
     background: rgb(33, 45, 69);
 }
 

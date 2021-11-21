@@ -1,5 +1,5 @@
 .graduation_title{
-    font-size: 30px;
+    font-size: 24px;
     width: max-content;
     max-width: 100%;
     margin-bottom: 12px;
@@ -12,7 +12,7 @@
 }
 
 .graduation_from{
-    font-size: 20px;
+    font-size: 16px;
     width: max-content;
     max-width: 100%;
     margin-bottom: 12px;
@@ -40,7 +40,7 @@
 }
 
 .section_title{
-    font-size: 35px;
+    font-size: 22px;
     width: max-content;
     max-width: 100%;
     margin-top: 24px;
@@ -51,11 +51,11 @@
         rgba(255, 255, 255, 0.66) 60.15%
       )
       text;
+  border-bottom: 2px solid rgb(165, 199, 73) !important;
 }
 
-
-.aaa:hover{
-    background: #fff;
+.section_proof h6{
+  font-size: 14px;
 }
 
 .analysid_desc p{
